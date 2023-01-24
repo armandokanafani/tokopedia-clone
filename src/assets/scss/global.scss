@@ -1,0 +1,61 @@
+// Screen Width
+$sm: 640px;
+$md: 768px;
+$lg: 1024px;
+$xl: 1280px;
+$xxl: 1536px;
+
+// Color
+$green-500: #03AC0E;
+$green-400: #4FD15A;
+$green-300: #80E893;
+$green-200: #D6FFDE;
+$green-100: #EBFFEF;
+
+// Typgraphy
+html{
+    font-family: 'Nunito Sans';
+    font-size: 14px;
+    box-sizing: border-box;
+    line-height: 1.15;
+}
+
+h1{
+    font-weight: 800;
+    font-size: 38px;
+    line-height: 42px;
+    letter-spacing: -0.5px;
+}
+
+h2{
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: -0.2px;
+}
+
+h3{
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 0px;
+}
+
+h4{
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0px;
+}
+
+h5{
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0px;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
