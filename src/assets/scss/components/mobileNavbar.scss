@@ -1,2 +1,42 @@
-@import url(../global.scss);
+@import '../global.scss';
 
+.mobile-navbar-wrapper{
+    display:none;
+}
+
+@media (max-width: $md) {
+    .mobile-navbar-wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 999;
+        width: 100%;
+        height: 50px;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+    }
+}
+
+.mobile-navbar-container{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    max-width: 500px;
+    border: 1px solid rgb(0, 0, 0, 7%);
+    background-color: white;
+    box-shadow: 0 -2px 4px 0 rgb(0, 0, 0, 7%);
+    
+}
+
+.mobile-navbar-icon-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: calc(100% / 5);
+}
+
+.mobile-navbar-icon-container span {
+    font-size: 12px;
+}
